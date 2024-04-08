@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./images/nk-website-favicon-black.png">
+    <script src="https://kit.fontawesome.com/31d363b70f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="preloader"></div>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/NK-Logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span>Naseef</span><br> From India</h1>
+                
+            </div>
+            
+        </div>
+    </div>
+    <!-- -------------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/IMG_3849.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm Naseef K. I'm a Web Developer with hands on experience in React JS.
+                        I'm Living on Malappuram District at Kalikavu. Currently doing my Bachelors Degree in
+                        Computer Application at Calicut University and enhancing my skills
+                        from Steyp Ed-Tech Platform.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Website Development</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Internship at Steyp Ed-Tech Platform</li>
+                            <li><span>2022 - Present</span><br>Freelancer at Tegain Pvt Ltd</li>
+                           
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>BCA Student at Jamia Nadwiyya Arts&Science College</li>
+                            <li><span>2019</span><br>Cresent Higher Secondary School</li>
+                            <li><span>2017</span><br>10th Kerala State Education Board</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!----------------------services--------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------contact--------------->
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> <a href="mailto: naseefkattil@gmail.com"> naseefkattil@gmail.com</a></p>
+                <p> <i class="fa-solid fa-square-phone"></i> <a href="tel:+919946224540">+919946224540</a></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100006917553101" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/NaseefNk7" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/naseef__nk_?utm_medium=copy_link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://linkedin.com/in/naseef-k-8a6276208" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/naseef k.pdf" download class="btn">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Name" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; All Right Reserved | Design And Developed By Naseef</p>
+    </div>
+</div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RJHKmEu0tIQ?si=k7FxQadTFcE2BBXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RJHKmEu0tIQ?si=k7FxQadTFcE2BBXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RJHKmEu0tIQ?si=k7FxQadTFcE2BBXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RJHKmEu0tIQ?si=k7FxQadTFcE2BBXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+
+
+<script>
+
+
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+
+    <script>
+        var loader = document.getElementById("preloader");
+
+        window.addEventListener("load",function(){
+            loader.style.display  = "none";
+        })
+    </script>
+
+</body>
+</html>
